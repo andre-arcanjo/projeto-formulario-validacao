@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <main>
+
+        <h1>Formulário de Cadastro de Novo Usuário</h1>
+        <p>Preencha os campos abaixo e clique no botão "Enviar"</p>
+        <form method="get">
+            <input class="input" type="text" name="id" id="id" value="" placeholder="Id">
+            <input class="input" type="text" name="name" id="name" value="" placeholder="Nome">
+            <input class="input" type="email" name="email" id="email" value="" placeholder="Email">
+            <input class="input" type="number" name="phone" id="phone" value="" placeholder="Telefone">
+            <div class="botao">
+                <button class="button" id="btn-validation" type="submit">Enviar</button>
+            </div>
+        </form>
+        <p class="msg-error">Preencha todos os campos!</p>
+        <p class="msg-success">Usuário cadastrado com sucesso!</p>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

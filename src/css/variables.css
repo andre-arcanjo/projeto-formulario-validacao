@@ -1,0 +1,11 @@
+:root {
+	--bg: #f6f7fb;
+	--card-bg: #ffffff;
+	--border: #e5e7eb;
+	--surface: #f9fafb;
+	--primary: #2563eb;
+	--primary-700: #1d4ed8;
+	--error: #dc2626;
+	--success: #16a34a;
+	--shadow: 0 10px 25px rgba(2, 6, 23, 0.08);
+}
